@@ -1,3 +1,9 @@
 .Welcome To Java Script Lets Deep Dyed Into It..
 What is JS
-It A Front End FrameWork Wich can use to Add Styles HTMl Code
+It A Front End FrameWork Wich can use to Add Styles HTMl Code.
+  --ECMA Script--
+  it is Standard  which can add JS. Basically it use to run JS programs in every computer.
+  
+  --Execute JS--
+  it executes write once & runs everywhere. it is use to make interactive web pages.
+  Node is help to JS Which can be runs on every machine.
