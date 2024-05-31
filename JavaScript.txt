@@ -4,7 +4,7 @@ JS is Dynamicaly typed scripting langauge Wich is use to craete web pages.
 Dynamicaly means it create once & runs everywhere.
 It can use to Add Styles HTMl Code.
   --ECMA Script--
-  it is Standard  which can add JS. Basically it use to run JS programs in every computer.
+  it is Standard which can add JS. Basically it use to run JS programs in every computer.
   
   --Execute JS--
   it executes write once & runs everywhere. it is use to make interactive web pages.
@@ -18,6 +18,15 @@ It can use to Add Styles HTMl Code.
   --Variables--
   It is use to store datatypes in JS.Basically it is a container which has multiple datatypes
 
+    var is use to declare variables. but it is old techinique to declare variables in ES6(ECMA Script version 6) it is use 
+    it causes bugs
+    we use let
+
+    -- let is use to declare variables it is blocked scope its limit is up to the block
+
+    -- const is use to create variables in constant which value cant be changed once declare
+   
+    1)JS is case scensitive
 
 
 
