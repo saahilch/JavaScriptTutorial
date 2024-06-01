@@ -19,7 +19,7 @@ let boy2="pratik"
 let sentance= `${boy2} is a friend of ${boy1}`
 console.log(sentance)
 
-let name= "Sa hil"
+let name= "Sahil"
 console.log(name.length)
 console.log(name.toUpperCase())
 console.log(name.toLowerCase())
@@ -28,3 +28,5 @@ console.log(name.replace("Sa","hi"))
 for(let i=0;i<name.length;i++){
     console.log(i)
 }
+let marks=[91,12,50,80,90]
+console.log(marks)
