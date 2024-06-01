@@ -14,3 +14,17 @@ const item={
     "You":undefined
 }
 console.log(item["Sahil"])
+let boy1="promod"
+let boy2="pratik"
+let sentance= `${boy2} is a friend of ${boy1}`
+console.log(sentance)
+
+let name= "Sa hil"
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2,4))
+console.log(name.replace("Sa","hi"))
+for(let i=0;i<name.length;i++){
+    console.log(i)
+}
