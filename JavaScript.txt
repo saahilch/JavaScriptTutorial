@@ -1,7 +1,7 @@
 .Welcome To Java Script Lets Deep Dyed Into It..
 What is JS
 JS is Dynamicaly typed scripting langauge Wich is use to craete web pages.
-Dynamicaly means it create once & runs everywhere.
+Dynamicaly means it create once & runs everywhere.it is case scensitive
 It can use to Add Styles HTMl Code.
   --ECMA Script--
   it is Standard which can add JS. Basically it use to run JS programs in every computer.
@@ -24,9 +24,19 @@ It can use to Add Styles HTMl Code.
 
     -- let is use to declare variables it is blocked scope its limit is up to the block
 
-    -- const is use to create variables in constant which value cant be changed once declare
+    -- const is use to create identifire in constant which value cant be changed once declare
    
-    1)JS is case scensitive
+   -- Data Types --
+   nn bb ss u 
+   null,number,bignint,string,symbol,undefined
 
+   -- Objects --
+   It is non primitive datatypes.
+   it is key value pair.which has one key & multiple values.
+ 
+ -- Expression & Conditional Expons --
+  more like same as c & C++
+
+    
 
 
