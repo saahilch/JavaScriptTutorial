@@ -20,3 +20,5 @@ let a3=arr3.reduce((h1,h2)=>{
     return h1+h2
 })
 console.log(a3+a3)
+
+console.log(console)
