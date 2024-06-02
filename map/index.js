@@ -19,4 +19,4 @@ let a3=arr3.reduce((h1,h2)=>{
     // it Add index 0+1=1 & 1+index1 i.e=1+3
     return h1+h2
 })
-console.log(a3)
+console.log(a3+a3)
