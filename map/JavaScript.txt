@@ -108,3 +108,6 @@ screen object,alert,conferm object & promt.
 --Children Element--
 whatever we declare in sepcific tag  it will called Children elemet.
 head & body are children. both are siblings..
+
+elemet.childNodes[0]===elemet.first.child is always true..
+child nodes are look like array but it cant act as array
