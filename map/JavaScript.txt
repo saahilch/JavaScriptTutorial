@@ -104,3 +104,6 @@ document.getElementById('myElement').innerText = 'New Content';
 BOM-- BOM is collecton of objects. javascrit code intercat with broweser. 
 BOM has several object like window object,navigator object,location object,history object
 screen object,alert,conferm object & promt.
+
+--Children Element--
+whatever we declare in sepcific tag  it will called Children elemet.
