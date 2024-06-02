@@ -90,4 +90,7 @@ consel has many methods
 document.write
 
 window Objects
-BOM-s
+window is global object & it has following objects
+BOM-browers browers objet Model it additional object it provied additional objects
+
+DOM-complete html page that page is called DOM object.
