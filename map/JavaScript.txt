@@ -111,3 +111,7 @@ head & body are children. both are siblings..
 
 elemet.childNodes[0]===elemet.first.child is always true..
 child nodes are look like array but it cant act as array
+
+DOM elemet are not acceciable.it is readonly
+
+$ are use to refer back Element
