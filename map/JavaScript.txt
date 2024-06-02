@@ -94,3 +94,9 @@ window is global object & it has following objects
 BOM-browers browers objet Model it additional object it provied additional objects
 
 DOM-complete html page that page is called DOM object.
+DOM has all the methdos that server needs.. like html page http & https 
+request & responce.it has objects that can perfrom on server.
+DOM shows a structure of document as tree format whatever we add styles for web pages
+it will directly redirect through dom. it represnt HTMl & XML. & it stores as in tree format.
+to access dom in progect use document.getElementById(id) it ll select dom elemets by id.
+document.getElementById('myElement').innerText = 'New Content';
