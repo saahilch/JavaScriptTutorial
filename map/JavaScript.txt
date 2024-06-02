@@ -115,3 +115,8 @@ child nodes are look like array but it cant act as array
 DOM elemet are not acceciable.it is readonly
 
 $ are use to refer back Element
+
+parentNode--it return document
+parentElement-- it return null if false
+
+-- Element Only Navigation --
