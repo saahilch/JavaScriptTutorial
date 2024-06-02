@@ -84,3 +84,10 @@ let sentance= `${boy2} is a friend of ${boy1}`
 < script >
 it is use for seperation of cencern 
 
+
+consel has many methods 
+
+document.write
+
+window Objects
+BOM-s
