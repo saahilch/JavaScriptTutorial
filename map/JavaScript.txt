@@ -100,3 +100,7 @@ DOM shows a structure of document as tree format whatever we add styles for web 
 it will directly redirect through dom. it represnt HTMl & XML. & it stores as in tree format.
 to access dom in progect use document.getElementById(id) it ll select dom elemets by id.
 document.getElementById('myElement').innerText = 'New Content';
+
+BOM-- BOM is collecton of objects. javascrit code intercat with broweser. 
+BOM has several object like window object,navigator object,location object,history object
+screen object,alert,conferm object & promt.
