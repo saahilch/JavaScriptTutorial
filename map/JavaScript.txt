@@ -150,6 +150,13 @@ and maintainability compared to traditional callbacks. They are an essential par
 especially when dealing with asynchronous tasks like network requests, file reading, and other I/O operations
 
 it has methods like 
+
 then() - it all callback Functios for hadeing fulfilment & can chain multiple opertion
 catch() - adds callback Function for handeling rejection
 finally() - adds a callback function that is executed regardless of the prmices outcome
+
+-- set interval --
+it ll act on page relode. when we set page itll relode till that time that we declared
+
+-- set timeout-- 
+it allows a finction to writen till specific time
