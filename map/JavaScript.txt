@@ -122,7 +122,21 @@ parentElement-- it return null if false
 - - Element Only Navigation - -
 to use these in in  javascrpt use event listner to detect key press & navigate 
 through a list of focusable element such as links,buttons,input fields.
-   
+
+Select Elements: Use querySelectorAll to select all focusable elements within the container.
+
+Initial Focus: Set the focus to the first element initially.
+
+Keydown Event Listener: Listen for keydown events to handle navigation.
+
+Arrow Keys: Navigate forward (right/down) or backward (left/up) through the elements...
+    
 
 to change specific font color change use document.getElementById("nav")[0].firstElementChild.style.color="red"
+
+- - Promise - -
+promise  is an obejct Basically it represnt a evemt which is use to complete or failure
+an asynchronious operation & its resulting value.
+promices are us to handel asynchronious operations.
+it has states methods.
 
