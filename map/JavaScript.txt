@@ -134,9 +134,22 @@ Arrow Keys: Navigate forward (right/down) or backward (left/up) through the elem
 
 to change specific font color change use document.getElementById("nav")[0].firstElementChild.style.color="red"
 
+
+
+
+
+
 - - Promise - -
 promise  is an obejct Basically it represnt a evemt which is use to complete or failure
 an asynchronious operation & its resulting value.
 promices are us to handel asynchronious operations.
-it has states methods.
+it has states methods..
 
+Promises provide a powerful way to handle asynchronous operations in JavaScript, offering better readability 
+and maintainability compared to traditional callbacks. They are an essential part of modern JavaScript, 
+especially when dealing with asynchronous tasks like network requests, file reading, and other I/O operations
+
+it has methods like 
+then() - it all callback Functios for hadeing fulfilment & can chain multiple opertion
+catch() - adds callback Function for handeling rejection
+finally() - adds a callback function that is executed regardless of the prmices outcome
