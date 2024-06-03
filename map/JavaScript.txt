@@ -119,6 +119,10 @@ $ are use to refer back Element
 parentNode--it return document
 parentElement-- it return null if false
 
--- Element Only Navigation --
+- - Element Only Navigation - -
+to use these in in  javascrpt use event listner to detect key press & navigate 
+through a list of focusable element such as links,buttons,input fields.
+   
 
 to change specific font color change use document.getElementById("nav")[0].firstElementChild.style.color="red"
+
