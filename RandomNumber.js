@@ -10,6 +10,6 @@ while (userGuess != randomNumber) {
   }
   turns++;
 }
-
+ 
 const score = 100 - turns;
 console.log(`Congratulations! You guessed the number in ${turns} turns! Your score is ${score}.`);

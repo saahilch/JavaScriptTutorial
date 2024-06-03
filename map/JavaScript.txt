@@ -120,3 +120,5 @@ parentNode--it return document
 parentElement-- it return null if false
 
 -- Element Only Navigation --
+
+to change specific font color change use document.getElementById("nav")[0].firstElementChild.style.color="red"

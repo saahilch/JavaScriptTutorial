@@ -79,3 +79,6 @@ let sentance= `${boy2} is a friend of ${boy1}`
 --Escape Sequance--
 
 -- String Method -- 
+-- Array --
+
+
