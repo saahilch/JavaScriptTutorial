@@ -170,4 +170,5 @@ call back is nothing but copying the value & referance from memeory is called ca
 
 - - synchronous & asynchronous - -
 sync are perfrom one after another.each operation must be complete befor next operation start.
-
+async is perform without blocking the execution of subsequent peration.
+it is use to remain the program in responsive mode.
