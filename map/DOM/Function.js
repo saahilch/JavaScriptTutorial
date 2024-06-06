@@ -11,6 +11,6 @@ function hellow(){
 
 }
 function goodMorning(){
-    alert('goodMorning')
+     alert('goodMorning')
 }
 loadScript()
