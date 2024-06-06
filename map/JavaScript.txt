@@ -167,3 +167,7 @@ Dom event -- form event click event keyword event
 
 - - Call Back - -
 call back is nothing but copying the value & referance from memeory is called call back.
+
+- - synchronous & asynchronous - -
+sync are perfrom one after another.each operation must be complete befor next operation start.
+
