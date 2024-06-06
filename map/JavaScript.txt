@@ -166,3 +166,4 @@ something taht happen like click  drag drop etc
 Dom event -- form event click event keyword event
 
 - - Call Back - -
+call back is nothing but copying the value & referance from memeory is called call back.
