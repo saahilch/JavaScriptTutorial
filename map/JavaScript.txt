@@ -165,5 +165,18 @@ it allows a finction to writen till specific time
 something taht happen like click  drag drop etc 
 Dom event -- form event click event keyword event
 
---
+- - Call Back - -
+call back is nothing but copying the value & referance from memeory is called call back.
+
+- - synchronous & asynchronous - -
+sync are perfrom one after another.each operation must be complete befor next operation start.
+async is perform without blocking the execution of subsequent peration.
+it is use to remain the program in responsive mode.
+
+invserion of control--
+
+-- call back hell -- 
+-- Promices -- 
+we can create custome promices also...
+-- Payramid of Dom --
 
