@@ -177,7 +177,11 @@ invserion of control--
 IC is a desgin pinciple in JavaScript Basically it shows the flow of program.
 it show the cotrol of program.
 suppose you want to do custome codoing in a progect that time it ll show the exact inverson of control.
-
+it can be implemented in various ways--
+ - Dependancy Injection
+ - Call Back
+ - Promices & Async/Await
+ - Event Emitters
 -- call back hell -- 
 -- Promices -- 
 we can create custome promices also...
