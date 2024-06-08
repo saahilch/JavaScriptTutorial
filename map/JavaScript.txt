@@ -175,7 +175,8 @@ it is use to remain the program in responsive mode.
 
 invserion of control--
 IC is a desgin pinciple in JavaScript Basically it shows the flow of program.
-it show the cotrol of program
+it show the cotrol of program.
+suppose you want to do custome codoing in a progect that time it ll show the exact inverson of control.
 
 -- call back hell -- 
 -- Promices -- 
