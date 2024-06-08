@@ -189,4 +189,3 @@ it can be implemented in various ways--
 we can create custome promices also...
 -- Payramid of Dom --
  
-- - prmice chaining - -
