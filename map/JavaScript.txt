@@ -182,6 +182,8 @@ it can be implemented in various ways--
  - Call Back
  - Promices & Async/Await
  - Event Emitters
+ These techniques help decouple components, making code more modular, flexible, and easier to test. 
+ Understanding and leveraging IoC principles can significantly improve the architecture and maintainability of your JavaScript applications.
 -- call back hell -- 
 -- Promices -- 
 we can create custome promices also...
