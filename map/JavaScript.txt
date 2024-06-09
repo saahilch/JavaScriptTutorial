@@ -184,17 +184,20 @@ it can be implemented in various ways--
  - Event Emitters
  These techniques help decouple components, making code more modular, flexible, and easier to test. 
  Understanding and leveraging IoC principles can significantly improve the architecture and maintainability of your JavaScript applications.
+
 -- call back hell -- 
+
 Callback hell, also known as "Pyramid of Doom," occurs in JavaScript when multiple nested callbacks are used, leading to code that is difficult to read and maintain. 
 This often happens when performing asynchronous operations that depend on each other
-there are some methods to perform call back hell - -
+there are some methods to perform call back hell - - it is aslo kown as Pyramid Dom..
+
 Modularization
 Named function
 Promices 
 Async /Await 
--- Promices -- 
-we can create custome promices also...
--- Payramid of Dom --
 
  
 - - promice chaining - -
+Promise chaining is a technique in JavaScript where multiple asynchronous operations are executed in sequence. 
+Each operation returns a promise, and the next operation is performed only after the previous promise is resolved. 
+This helps in writing cleaner and more readable code compared to deeply nested callbacks (callback hell).
