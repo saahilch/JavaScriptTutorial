@@ -185,8 +185,11 @@ it can be implemented in various ways--
  These techniques help decouple components, making code more modular, flexible, and easier to test. 
  Understanding and leveraging IoC principles can significantly improve the architecture and maintainability of your JavaScript applications.
 -- call back hell -- 
+Callback hell, also known as "Pyramid of Doom," occurs in JavaScript when multiple nested callbacks are used, leading to code that is difficult to read and maintain. 
+This often happens when performing asynchronous operations that depend on each other
 -- Promices -- 
 we can create custome promices also...
 -- Payramid of Dom --
+
  
 - - prmice chaining - -
