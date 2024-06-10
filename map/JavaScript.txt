@@ -226,3 +226,6 @@ How Promices API Work --
   it can be creted using promice keyword. it can be created using promice constructure which takes a function
   that recives two argument 'resolve' & 'reject'.
 
+  the promice consumed using 'then' , 'catch' & 'finally'.
+then () - method is use to handel a fullfill promice.It takes two operation argument
+a callback for fullfilled case & callback for rejected phase.
