@@ -214,4 +214,11 @@ Async - - it is use to declare asynchronious function.& it automatically returns
 
 Await - - the keyword is used t pause the exicution of an async funtion util promis is reslved or rejected.it used inside the async function.
 
-it allows eassy error handeling with try... catch & it provides flexible environment for both sequential & concurant exicution of async operation.
+it allows eassy error handeling with try ... catch & it provides flexible environment for both sequential & concurant exicution of async operation.
+
+How Promices API Work --
+ Promice API provies a way to handel asynchronious operations more effectively.
+ it can work on three stages -- 
+ 1 - Pending - it is initial stage. it nirher fullfill nor rejected .
+ 2 - FullFilled - The Operation completed Successfully .
+ 3 - Rejuected - The Operation is Rejected .
