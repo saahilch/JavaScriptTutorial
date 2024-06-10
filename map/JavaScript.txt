@@ -242,5 +242,7 @@ a callback for fullfilled case & callback for rejected phase.
 
 Using .catch(),using .then() .catch() async / Await using try . . . catch & finally().
 
+to fetch api in JavaScript we create fetch function & pass http url & further use .then & pass responce in it
 
-
+to handel these request we use 
+get post put delete requests
