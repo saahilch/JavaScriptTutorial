@@ -229,3 +229,7 @@ How Promices API Work --
   the promice consumed using 'then' , 'catch' & 'finally'.
 then () - method is use to handel a fullfill promice.It takes two operation argument
 a callback for fullfilled case & callback for rejected phase.
+
+catch () - it is use to handel a rejected promice Basically it can perfom on 
+  .then(null,rejectionCallback)
+
