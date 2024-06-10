@@ -222,3 +222,7 @@ How Promices API Work --
  1 - Pending - it is initial stage. it nirher fullfill nor rejected .
  2 - FullFilled - The Operation completed Successfully .
  3 - Rejuected - The Operation is Rejected .
+  1st we need to create promice 
+  it can be creted using promice keyword. it can be created using promice constructure which takes a function
+  that recives two argument 'resolve' & 'reject'.
+
