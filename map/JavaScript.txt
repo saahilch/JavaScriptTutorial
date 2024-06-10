@@ -208,3 +208,6 @@ This helps in writing cleaner and more readable code compared to deeply nested c
 it look asynchronious code & perfom like synchronous code.
 both are imporved perforance &  maintainability readiability of code.
 it removes nested call back hell & complex promice chain.
+
+Async - - it is use to declare asynchronious function.& it automatically returns a promice
+&  resolve value of the prmices & whatever the function return.
