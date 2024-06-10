@@ -240,5 +240,7 @@ a callback for fullfilled case & callback for rejected phase.
   promice chaining  using then() for sequential asynchronous operations.
    Combining Promice using promice.all() to wait for multiple promice to resolve & promice.race().
 
+Using .catch(),using .then() .catch() async / Await using try . . . catch & finally().
+
 
 
