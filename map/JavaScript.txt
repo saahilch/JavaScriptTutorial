@@ -212,4 +212,6 @@ it removes nested call back hell & complex promice chain.
 Async - - it is use to declare asynchronious function.& it automatically returns a promice
 &  resolve value of the prmices & whatever the function return.
 
-Await -- the keyword is used t pause the exicution of an async funtion util promis is reslved or rejected.it used inside the async function.
+Await - - the keyword is used t pause the exicution of an async funtion util promis is reslved or rejected.it used inside the async function.
+
+it allows eassy error handeling with try... catch & it provides flexible environment for both sequential & concurant exicution of async operation.
