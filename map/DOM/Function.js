@@ -6,4 +6,12 @@ function loadScript(src,callback){
     }
     document.body.appendChild(script)
 }
+function hellow(){
+    alert('Hellow World!');
+
+}
+function goodMorning(){
+    alert('goodMorning')
+}
+loadScript()
 
