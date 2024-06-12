@@ -230,4 +230,19 @@ How Promices API Work --
 then () - method is use to handel a fullfill promice.It takes two operation argument
 a callback for fullfilled case & callback for rejected phase.
 
-  
+  catch () - it is use to handel a rejected promice Basically it can perfom on 
+  .then(null,rejectionCallback).
+
+  finally () - it does not recives any argument & it is usefull for cleanup operation.
+
+  creaeting promice using Promice ,resolve,rejcet.
+  consuming promice using then(),catch() & finally()
+  promice chaining  using then() for sequential asynchronous operations.
+   Combining Promice using promice.all() to wait for multiple promice to resolve & promice.race().
+
+Using .catch(),using .then() .catch() async / Await using try . . . catch & finally().
+
+to fetch api in JavaScript we create fetch function & pass http url & further use .then & pass responce in it
+
+to handel these request we use 
+get, post, put ,delete requests
