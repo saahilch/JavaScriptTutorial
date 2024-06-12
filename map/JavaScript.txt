@@ -235,6 +235,12 @@ a callback for fullfilled case & callback for rejected phase.
 
   finally () - it does not recives any argument & it is usefull for cleanup operation.
 
+try{
+setTimeout()
+} catch (){
+
+}
+
   creaeting promice using Promice ,resolve,rejcet.
   consuming promice using then(),catch() & finally()
   promice chaining  using then() for sequential asynchronous operations.
