@@ -242,6 +242,7 @@ setTimeout()
 }
 
 we can throw custome errors also.
+finally clause is also there in  javascript. it is always executed wheter the try throw error or not.
   creaeting promice using Promice ,resolve,rejcet.
   consuming promice using then(),catch() & finally()
   promice chaining  using then() for sequential asynchronous operations.
