@@ -243,6 +243,7 @@ setTimeout()
 
 we can throw custome errors also.
 finally clause is also there in  javascript. it is always executed wheter the try throw error or not.
+finally is use to cleanup the code like wise close the file exit from  loop.
   creaeting promice using Promice ,resolve,rejcet.
   consuming promice using then(),catch() & finally()
   promice chaining  using then() for sequential asynchronous operations.
