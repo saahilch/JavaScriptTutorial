@@ -241,6 +241,7 @@ setTimeout()
 
 }
 
+we can throw custome errors also.
   creaeting promice using Promice ,resolve,rejcet.
   consuming promice using then(),catch() & finally()
   promice chaining  using then() for sequential asynchronous operations.
