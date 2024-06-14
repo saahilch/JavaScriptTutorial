@@ -15,6 +15,10 @@ It can use to Add Styles HTMl Code.
   alert("hellow)
   </script>
 
+  ; is not mandetory while creaeting a statments.
+  ECMA has puts automatically as per need.
+  but you have more than one statments then you need to put semicolans. to break the statments
+
   --Variables--
   It is use to store datatypes in JS.Basically it is a container which has multiple datatypes
 
