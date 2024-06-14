@@ -274,3 +274,18 @@ to fetch api in JavaScript we create fetch function & pass http url & further us
 
 to handel these request we use 
 get, post, put ,delete requests
+
+
+
+Buffer -- Two Types of buffeer 
+1) ArrayBuffer
+2) SharedArrayBuffer
+
+Both Buffer are represent of memeory span.you cant read or Write them directly.
+insted of buffer are generic objects it just conatian row data in it 
+to use buffer you need to use view
+BUffer supports few operations such as
+Allocate
+copy
+Tranfer
+Resize
