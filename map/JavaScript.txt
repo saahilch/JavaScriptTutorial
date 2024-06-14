@@ -26,7 +26,7 @@ It can use to Add Styles HTMl Code.
   1-)Global Scope -- everywhere can use it
   2-)Module Scope -- it can acces while code is in running only.
   3-)Functim Scope -- Suppose e Declare A Variable inside a scpoe it will access only within a function only.
-
+  To block Scope We Ue { }
     var is use to declare variables. but it is old techinique to declare variables in ES6(ECMA Script version 6) it is use 
     it causes bugs
     we use let
