@@ -289,3 +289,8 @@ Allocate
 copy
 Tranfer
 Resize
+
+T o fetch api use fetch("url")
+cookies - - 
+small string of data use to store in browser.cookies are help remember the information about the user
+ such as login status,perforance & trcking information.
