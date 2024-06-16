@@ -294,3 +294,4 @@ T o fetch api use fetch("url")
 cookies - - 
 small string of data use to store in browser.cookies are help remember the information about the user
  such as login status,perforance & trcking information.
+ cookies send the stored information to http header.
