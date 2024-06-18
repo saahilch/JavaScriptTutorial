@@ -22,7 +22,7 @@ It can use to Add Styles HTMl Code.
   --Variables--
   It is use to store datatypes in JS.Basically it is a container which has multiple datatypes
 
-  A Variable has 3 scope--
+  A Variable has 3 scope-- 
   1-)Global Scope -- everywhere can use it
   2-)Module Scope -- it can acces while code is in running only.
   3-)Functim Scope -- Suppose e Declare A Variable inside a scpoe it will access only within a function only.
@@ -300,5 +300,9 @@ small string of data use to store in browser.cookies are help remember the infor
  document.cookie="name-sahil240599"
  consel.log(document.cookie)
 
+Local Storage - -
+it is use to store the data.
+the data is stored on the browser.
+local storage has the key value pair.the data is stored into key value pair format.
 
  
