@@ -305,4 +305,21 @@ it is use to store the data.
 the data is stored on the browser.
 local storage has the key value pair.the data is stored into key value pair format.
 
+ there are different operation on local storage
+ add 
+ clear
+ set Item
+ get Item
+ removeItem
+ key
+ length
+
+ Session Storage
+ similar to Local Storage 
+ if the tab is closed then data will removed
+ it will valid till current browser tab.
+
+ Storage Event - -
  
+
+

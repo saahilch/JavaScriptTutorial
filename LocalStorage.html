@@ -10,7 +10,11 @@
         let key=prompt("Enter Key you Want To set")
         let value=prompt("Enter Value You Want To Set")
         localStorage.setItem(key,value)
+        
         console.log(`The Value at key is  ${key} & value is ${localStorage.getItem(key)} `)
+        if(key=="red" || key =="blue"){
+            localStorage.removeItem(key)
+        }
     </script>
 </body>
 </html>
