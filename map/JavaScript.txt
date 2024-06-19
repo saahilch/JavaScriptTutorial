@@ -328,4 +328,5 @@ local storage has the key value pair.the data is stored into key value pair form
 Classes & Object --
 class is nothing but a classificatoin.
 it has all the methods  objects that we want to need.
+basically it is a template.
 
