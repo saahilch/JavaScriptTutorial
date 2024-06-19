@@ -14,7 +14,7 @@
         class RailwayForm {
             constructor(Givenname, trainNo,details) {
                 console.log("CONSTRUCTURE GET CALLED HERE. . ." + Givenname + " " + trainNo)
-                this.Givenname = Givenname
+                this.name = Givenname
                 this.trainNo = trainNo
                 this.details=details
 
@@ -25,7 +25,7 @@
                 alert(this.name + " Your Form Get Submited for train number " + this.trainNo)
             }
             cancel() {
-                alert(this.name + " This Form Get Submited for tarin number" + this.trainNo)
+                alert(this.name + " This Form Get Submited for train number" + this.trainNo)
             }
         }
         let SahilForm=new SahilForm("Sahil",13578,"420,Pacific-Ocen,KOlhapur")
