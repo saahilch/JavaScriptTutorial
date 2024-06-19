@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        class RailwayForm {
+            constructor(Givenname, trainNo,details) {
+                console.log("CONSTRUCTURE GET CALLED HERE. . ." + Givenname + " " + trainNo)
+                this.Givenname = Givenname
+                this.trainNo = trainNo
+                this.details=details
+
+            }
+
+
+            submit() {
+                alert(this.name + " Your Form Get Submited for train number " + this.trainNo)
+            }
+            cancel() {
+                alert(this.name + " This Form Get Submited for tarin number" + this.trainNo)
+            }
+        }
+        let SahilForm=new SahilForm("Sahil",13578,"420,Pacific-Ocen,KOlhapur")
+        SahilForm.submit()
+    </script>
+</body>
+
+</html>

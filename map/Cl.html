@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-   <script>
-    class RailwayForm{
-        submit(){
-            alert("Form Submited")
-        }
-        cansel(){
-            alert(this.Givenname+"These Form Get Canseled")
-        }
-        fill(Givenname){
-            this.name=Givenname
 
+<body>
+    <script>
+        class RailwayForm {
+            constructor() {
+                console.log("CONSTRUCTURE GET CALLED . . ." + Givenname + " " + trainNo)
+                this.name=Givenname
+                this.trainNo=trainNo
+
+            }
+            submit() {
+                alert(this.name + "Form Submited")
+            }
+            cansel() {
+                alert(this.Givenname + "These Form Get Canseled")
+            }
+            fill(Givenname, trainNo) {
+                this.name = Givenname
+                this.trainNo = trainNo
+            }
         }
-    }
-    let sahil=new RailwayForm()
-    let Rohan=new RailwayForm()
-    sahil.submit()
-    Rohan.cansel()
-   </script> 
+        let sahil = new RailwayForm()
+        // filled form with details
+        sahil.fill("Sahil", 1254351)
+        // create the form for rohan
+        let Rohan = new RailwayForm()
+        sahil.submit()
+        Rohan.cansel()
+    </script>
 </body>
+
 </html>
