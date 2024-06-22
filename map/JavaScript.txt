@@ -312,5 +312,21 @@ local storage has the key value pair.the data is stored into key value pair form
  get Item
  removeItem
  key
- 
+ length
+
+ Session Storage
+ similar to Local Storage 
+ if the tab is closed then data will removed
+ it will valid till current browser tab.
+
+ Storage Event - -
+ there are two storage events like Session Storage & local Storage.
+
+ Prototyes - - 
+
+
+Classes & Object --
+class is nothing but a classificatoin.
+it has all the methods  objects that we want to need.
+basically it is a 
 
