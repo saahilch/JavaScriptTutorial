@@ -206,14 +206,14 @@ it can be implemented in various ways--
 
 -- call back hell -- 
 
-Callback hell, also known as "Pyramid of Doom," occurs in JavaScript when multiple nested callbacks are used, leading to code that is difficult to read and maintain. 
+Callback hell, also known as "Pyramid of Dom ," occurs in JavaScript when multiple nested callbacks are used, leading to code that is difficult to read and maintain. 
 This often happens when performing asynchronous operations that depend on each other
 there are some methods to perform call back hell - - it is aslo kown as Pyramid Dom..
 
 Modularization
 Named function
 Promices 
-Async /Await 
+Async / Await 
 
  
  
