@@ -8,7 +8,7 @@ while (userGuess != randomNumber) {
   } else {
     userGuess = prompt("Your guess was too high. Try again.");
   }
-  turns++;
+  turns ++;
 }
  
 const score = 100 - turns;

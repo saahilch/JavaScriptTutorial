@@ -216,7 +216,7 @@ Promices
 Async /Await 
 
  
- .
+ 
  
 - - promice chaining - -
 Promise chaining is a technique in JavaScript where multiple asynchronous operations are executed in sequence. 
