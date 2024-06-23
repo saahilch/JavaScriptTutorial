@@ -81,4 +81,19 @@ let sentance= `${boy2} is a friend of ${boy1}`
 -- String Method -- 
 -- Array --
 
+Hoisting - - 
+Hoisting is a JavaScript behavior in which variable and function declarations are moved to 
+the top of their containing scope during the compilation phase. This means that you can use 
+variables and functions before they are actually declared in the code. 
+However, it's important to note that only the declarations are hoisted, not the initializations.
+if( we use var keyward the variable ddeclaration is hoisted to the top of its function of global scope.
+
+consol.log(a); //->these is undefined
+var a=10; 
+consol.log(a); //-> 10 assign here.
+
+first we use the variable im consol.log the we declare on to the next line. then after that i again we print the value.
+
+
+
 

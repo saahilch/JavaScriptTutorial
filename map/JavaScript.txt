@@ -223,7 +223,7 @@ Promise chaining is a technique in JavaScript where multiple asynchronous operat
 Each operation returns a promise, and the next operation is performed only after the previous promise is resolved. 
 This helps in writing cleaner and more readable code compared to deeply nested callbacks (callback hell).
 
-- - Async & Await both are keyword in javascrit it is used with promices.
+- - Async & Await both are keywkiord in javascrit it is used with promices.
 it look asynchronious code & perfom like synchronous code.
 both are imporved perforance &  maintainability readiability of code.
 it removes nested call back hell & complex promice chain.
@@ -240,9 +240,10 @@ How Promices API Work --
  it can work on three stages -- 
  1 - Pending - it is initial stage. it nither fullfill nor rejected .
  2 - FullFilled - The Operation completed Successfully .
- 3 - Rejected - The Operation is Rejected .
+ 3
+  - Rejected - The Operation is Rejected .
   1st we need to create promice 
-  it can be creted using promice keyword. it can be created using promice constructure which takes a function
+  it can be creted using promice keyword . it can be created using promice constructure which takes a function
   that recives two argument 'resolve' & 'reject'.
 
   the promice consumed using 'then' , 'catch' & 'finally'.
