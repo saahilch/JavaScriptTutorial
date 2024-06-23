@@ -94,6 +94,22 @@ consol.log(a); //-> 10 assign here.
 
 first we use the variable im consol.log the we declare on to the next line. then after that i again we print the value.
 
+Variables declared with let and const are also hoisted, but they are not initialized. 
+Accessing them before their declaration results in a ReferenceError.
+
+console.log(b); //->Cannot  access 'b' befor initialization
+let b=20;
+console.log(b); // 20
+
+Hoisting with functions -- 
+
+Function declarations are hoisted along with their definitions, meaning you 
+can call the function before its declaration in the code.
+
+greet(); //->"hellow"
+function greet(){
+  console.log("hellow");
+}
 
 
 
