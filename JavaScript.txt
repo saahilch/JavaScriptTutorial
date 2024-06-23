@@ -109,7 +109,41 @@ can call the function before its declaration in the code.
 greet(); //->"hellow"
 function greet(){
   console.log("hellow");
+
 }
 
+Closers - -
+A function along wait a lexical environment is called closers
+combination of functions.Basically closers are nothning but nested functons.
+
+function outerfunction(){
+
+  let outervariable='Im fromm outer scope';
+
+  function  innerFunction(){
+
+    console.log(outerVariable)
+  }
+  return innerFunction;
+}
+
+const myInnerFunction=outerfunction();
+myInnerFunction(); //->Logs: 'Im from outer scope'
+
+Basically Closers Are Use For Data Privacy
+if any vriables are in private then with the help of closers we can directly 
+access it 
+
+For maintaing states in asynchronious functions such as event handlers or timers
+
+message="Good Morning"
+
+function hellow(){
+  message="good Morning"
+  console.log("Hellow 1:"+message)
+}
+hellow1()
+
+it will print hellow world
 
 
