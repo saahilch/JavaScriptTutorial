@@ -1,3 +1,5 @@
+package Interview;
+
 import java.util.Scanner;
 
 class Reverse {
@@ -7,8 +9,9 @@ class Reverse {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char[] arr = str.toCharArray();
-        for (int i = 0; i < arr.lenght - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             System.out.println(i);
+
         }
     }
 }
