@@ -147,3 +147,6 @@ hellow1()
 it will print hellow world
 
 
+- - this is use as window object - -
+
+
