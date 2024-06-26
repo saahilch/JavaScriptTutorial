@@ -1,0 +1,152 @@
+.Welcome To Java Script Lets Deep Dyed Into It..
+What is JS
+JS is Dynamicaly typed scripting langauge Wich is use to craete web pages.
+Dynamicaly means it create once & runs everywhere.it is case scensitive
+It can use to Add Styles HTMl Code.
+  --ECMA Script--
+  it is Standard which can add JS. Basically it use to run JS programs in every computer.
+  
+  --Execute JS--
+  it executes write once & runs everywhere. it is use to make interactive web pages.
+  Node is help to JS Which can be runs on every machine...
+
+  Code Can Be Written IN HTMl file which is encloed with script tag.
+  <script>
+  alert("hellow)
+  </script>
+
+  --Variables--
+  It is use to store datatypes in JS.Basically it is a container which has multiple datatypes
+
+    var is use to declare variables. but it is old techinique to declare variables in ES6(ECMA Script version 6) it is use 
+    it causes bugs
+    we use let
+
+    -- let is use to declare variables it is blocked scope its limit is up to the block
+
+    -- const is use to create identifire in constant which value cant be changed once declare
+   
+   -- Data Types --
+   nn bb ss u 
+   null,number,bignint,string,symbol,undefined
+
+   -- Objects --
+   It is non primitive datatypes.
+   it is key value pair.which has one key & multiple values.
+ 
+ -- Expression & Conditional Expons --
+  more like same as c & C++
+ -- Conditional 
+ if, if else,if else if
+    
+   [ parseInt is use to convert string into integer ]
+
+   -- Loops -- 
+   for(let i=0;i<=5;i++){
+    0 to i-1
+    consol.log(i)
+   }
+
+   -- for in Loop
+   for(let a in obj){
+    consol.log(a)
+    }
+    -- for of Loop
+    for(let a of "ASHIL")
+    {
+        consol.log(a)
+    }
+       
+       -- While loop --
+       Execute atleast 1 
+
+       -- do while loop --
+
+ -- Functios--
+ use to seperation of logic it is black box which takes input & gives exact output.
+Functio myfuction(){
+
+}
+
+-- Strings -- 
+collecton of character 
+ ` `  these are use for to show both are can be used ' " use to assign variables directly 
+these is called string interpolation.
+let boy1="promod"
+let boy2="promod"
+let sentance= `${boy2} is a friend of ${boy1}`
+
+--Escape Sequance--
+
+-- String Method -- 
+-- Array --
+
+Hoisting - - 
+Hoisting is a JavaScript behavior in which variable and function declarations are moved to 
+the top of their containing scope during the compilation phase. This means that you can use 
+variables and functions before they are actually declared in the code. 
+However, it's important to note that only the declarations are hoisted, not the initializations.
+if( we use var keyward the variable ddeclaration is hoisted to the top of its function of global scope.
+
+consol.log(a); //->these is undefined
+var a=10; 
+consol.log(a); //-> 10 assign here.
+
+first we use the variable im consol.log the we declare on to the next line. then after that i again we print the value.
+
+Variables declared with let and const are also hoisted, but they are not initialized. 
+Accessing them before their declaration results in a ReferenceError.
+
+console.log(b); //->Cannot  access 'b' befor initialization
+let b=20;
+console.log(b); // 20
+
+Hoisting with functions -- 
+
+Function declarations are hoisted along with their definitions, meaning you 
+can call the function before its declaration in the code.
+
+greet(); //->"hellow"
+function greet(){
+  console.log("hellow");
+
+}
+
+Closers - -
+A function along wait a lexical environment is called closers
+combination of functions.Basically closers are nothning but nested functons.
+
+function outerfunction(){
+
+  let outervariable='Im fromm outer scope';
+
+  function  innerFunction(){
+
+    console.log(outerVariable)
+  }
+  return innerFunction;
+}
+
+const myInnerFunction=outerfunction();
+myInnerFunction(); //->Logs: 'Im from outer scope'
+
+Basically Closers Are Use For Data Privacy
+if any vriables are in private then with the help of closers we can directly 
+access it 
+
+For maintaing states in asynchronious functions such as event handlers or timers
+
+message="Good Morning"
+
+function hellow(){
+  message="good Morning"
+  console.log("Hellow 1:"+message)
+}
+hellow1()
+
+it will print hellow world
+
+
+- - this is use as window object - -
+
+
